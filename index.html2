@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Chaos</title>
+  <style>
+    body {
+      background: #101020;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    button {
+      padding: 15px 25px;
+      background: cyan;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎲 RANDOM CHAOS</h1>
+  <p id="result">Click the button!</p>
+
+  <button onclick="chaos()">GENERATE</button>
+
+  <script>
+    function chaos() {
+      const things = [
+        "THE MOON HAS ESCAPED 🌙",
+        "A WILD POTATO APPEARED 🥔",
+        "404: BRAIN NOT FOUND 💀",
+        "EARTH HAS LEFT THE CHAT 🌍",
+        "COSMIC BANANA DETECTED 🍌",
+        "YOU FOUND NOTHING. CONGRATS."
+      ];
+
+      document.getElementById("result").textContent =
+        things[Math.floor(Math.random() * things.length)];
+    }
+  </script>
+
+</body>
+</html>
