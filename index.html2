@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <a href="index.html2">Visit my second page :P</a>
+</body>
+</html>
 
 <!DOCTYPE html>
 <html>
@@ -38,6 +48,7 @@
         "EARTH HAS LEFT THE CHAT 🌍",
         "COSMIC BANANA DETECTED 🍌",
         "YOU FOUND NOTHING. CONGRATS."
+        "NUCLEAR GRENADE INCOMING!☢️"
       ];
 
       document.getElementById("result").textContent =
